@@ -8,5 +8,5 @@ function bigshow(frames, varargin)
 %         colormap bone
 %         clim([500 1000])
         drawnow
-        pause(0.05)
+        pause(0.05*2)
     end
