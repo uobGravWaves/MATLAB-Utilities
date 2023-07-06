@@ -6,7 +6,7 @@ Returns an adjacency matrix (but not the real mathsey one)
 This can definitely be quicker, but requires a better mind than mine
 %}
 I = downer(I);
-m = max(I, [], "all");
+m = max(I, [], "all")
 %Find the largest label, this needs to have gone through the downer program
 %to work properly
 [sisX, sisY] = size(I);
@@ -21,7 +21,7 @@ for x = 2:1:sisX-1
     end
 end
 
-W = out;
+W = out - eye(m);
 
 function out = allaround(I, out, x, y)
     if I(x, y)~=I(x+1, y)
@@ -49,4 +49,5 @@ function out = allaround(I, out, x, y)
         out(I(x, y), I(x+1, y)) = 1;
     end
 end
+
 end
