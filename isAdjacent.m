@@ -6,7 +6,7 @@ Returns an adjacency matrix (but not the real mathsey one)
 This can definitely be quicker, but requires a better mind than mine
 %}
 I = downer(I);
-m = max(I, [], "all")
+m = max(I, [], "all");
 %Find the largest label, this needs to have gone through the downer program
 %to work properly
 [sisX, sisY] = size(I);
