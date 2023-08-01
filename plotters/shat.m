@@ -1,3 +1,4 @@
-function [] = shat(IN)
+function [] = shat(varargin)
 
-pcolor(IN);shading flat
+
+pcolor(varargin{:});shading flat
