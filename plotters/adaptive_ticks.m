@@ -1,3 +1,4 @@
+function OUT = adaptive_ticks(IN, options)
 %{
 Makes nice tick marks for colourbars
 INPUTS
@@ -11,9 +12,6 @@ even
 short ----- Tucks in the top and bottom ticks by 2*roundo, just to make it
 a touch cleaner, this is the most janky, use with caution
 %}
-
-function OUT = adaptive_ticks(IN, options)
-
 arguments
     IN (:,:) double
     options.numticks (1, 1) single {mustBeInteger} = 5

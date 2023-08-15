@@ -1,4 +1,4 @@
-function axList = connectaxes2(axList)
+function axList = connect_axes(axList)
 % C:\Users\KEdwards\OneDrive - datacolor\matlab_programs\graphics\
 % connectaxes2.m
 %

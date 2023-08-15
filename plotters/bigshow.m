@@ -1,12 +1,8 @@
-%An animated square pcolor, varargins being x and y coords
-
 function bigshow(frames, varargin)
-
+%A quick and dirty animation 
+fig = figure('CloseRequestFcn', @my_closereq);
     for x = 1:size(frames, 3)
-        sqlat(frames(:,:,x), x, varargin{:})
-%         title(x)
-%         colormap bone
-%         clim([500 1000])
+        shat(frames(:,:,x))
         drawnow
         pause(0.05)
     end

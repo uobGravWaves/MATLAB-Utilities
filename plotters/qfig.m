@@ -1,5 +1,8 @@
-function [hfig, ax] = qfig(hfig, ax)
+function [hfig, ax] = qfig()
+%Quick and easy nice figure and axes
 
+hfig = figure;
+ax = axes;
 picturewidth = 20; % set this parameter and keep it forever
 hw_ratio = 0.65; % feel free to play with this ratio
 set(findall(hfig,'-property','FontSize'),'FontSize',20) % adjust fontsize to your document
