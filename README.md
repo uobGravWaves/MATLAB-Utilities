@@ -1,6 +1,7 @@
 # Matlab-Utilities
 Big ol' group of useful matlab files
 
+All in alphabetical order, check the folders (further down) for more
 bin2mat has bin2mat and bin2matN, confusion
 getters&readers has things that get data, and things that read data. Probably most useful
 obsolete is my own that aren't useful anymore, but have served their purpose
@@ -9,7 +10,7 @@ plotters has my own special brand of plotting and helping plotting. Could probab
 stransform has all the stuff I have to do with stransforming things, inc gwanalyse, although who knows which version this is
 
 
-List of functions
+## List of misc. functions
 
 adaptcluster_kmeans - Kmeans clustering algorithm for images (BW or colourful), slightly better than normal matlab one <br />
 airdensity - computes air density from pressure and temperature<br />
@@ -42,7 +43,46 @@ remzero - removes zeros and replaces with NaNs<br />
 round_to - rounds an array to the nearest given value<br />
 smoothn - smooths things nicely<br />
 str - the python version of num2str<br />
+tm2time - converts from POSIX tm time to normal time <br />
 wildcardsearch - searches through the file system using wildcards<br />
+
+## Utility folders
+### bin2mat
+bin2mat - 
+bin2matN - 
+### cbrewer2
+cbrewer2 - better colourmaps
+### getters&readers
+cjw_readnetCDF - netCDF reader, Corwin's OLD<br />
+nph_getnet - netCDF reader, Neil's<br />
+rCDF - netCDF reader, Corwin's NEW<br />
+readtif - tif reader
+### obsolete
+Be my guest looking through here
+### plotters
+adaptive_ticks - makes nicer ticks for colourbars<br />
+bigshow - a quick and dirty animation based on pcolor<br />
+connect_axes - links as many axes as are on screen together, based on linkprop<br />
+m_contour3 - a tricksy contour3 for m_map<br />
+m_surf - a surf map for m_map<br />
+qfig - a nice setup for nice looking figures<br />
+qmap - a quick m_map setup with coasts etc<br />
+qmapbig - bigshow/qmap, very slow to run<br />
+shat - pcolor, shading flat<br />
+slim - limits the x and y axes to be square in whatever numbers given<br />
+subtightplot - a fancy way of making subplots, lots of ability to move things around<br />
+tcolor - I have no idea but I think it might be useful later<br />
+### stransform
+Just bits needed for various ST stuff<br />
+nph_ndst - this is very nice and what everything is built upon
+
+---
+
+
+
+
+
+
 
 
 
