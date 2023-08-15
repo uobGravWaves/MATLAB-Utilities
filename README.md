@@ -11,7 +11,7 @@ stransform has all the stuff I have to do with stransforming things, inc gwanaly
 
 List of functions
 
-adaptcluster_kmeans - Kmeans clustering algorithm for images (BW or colourful), slightly better than normal matlab one \n
+adaptcluster_kmeans - Kmeans clustering algorithm for images (BW or colourful), slightly better than normal matlab one <br />
 airdensity - computes air density from pressure and temperature
 cat_struct - concatenates two structs along a given dimension, with given exceptions
 cell2num - converts a cell matrix to a double array
