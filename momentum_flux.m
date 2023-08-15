@@ -1,4 +1,4 @@
-function [MFx, MFy] = MomentumFlux(A,k,l,m,BG,height)
+function [MFx, MFy] = momentum_flux(A,k,l,m,BG,height)
 
 % Momentum flux function assuming that we are using the 137 levels from
 % ECMWF to calculate pressure from the heights that we use
@@ -10,7 +10,7 @@ function [MFx, MFy] = MomentumFlux(A,k,l,m,BG,height)
 Pressure = h2p(height);
 % Pressure = repmat(Pressure, size(A,1), size(A,2));
 
-density = cjw_airdensity(Pressure,BG);
+density = airdensity(Pressure,BG);
 g = 9.81;
 N = 0.02;
 

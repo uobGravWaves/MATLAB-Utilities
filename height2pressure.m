@@ -1,9 +1,5 @@
-
-
-
-
-function p = h2p(alt)
-
+function p = height2pressure(alt)
+%Takes altitude and outputs pressure
 p = zeros(size(alt));
 
 

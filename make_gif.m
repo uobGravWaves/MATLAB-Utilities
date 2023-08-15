@@ -1,4 +1,4 @@
-function makeGif(volume, tim, grid,delayTime, filename)
+function make_gif(volume, tim, grid,delayTime, filename)
 %%% Function to make a gif from a 3D volume which can also have colour info (4 dims)
 %%% or no colour info (3dims) - P. Pandey
 

@@ -1,4 +1,4 @@
-function W = isAdjacent(I)
+function W = is_adjacent(I)
 %{
 Searches all pixels and finds which areas (with the same label) are
 adjacent to each other

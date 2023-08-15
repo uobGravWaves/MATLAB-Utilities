@@ -1,9 +1,5 @@
-
-
-
-
-function z = p2h(pres)
-
+function z = pressure2height(pres)
+%Converts from pressure to height
 z = zeros(size(pres));
 
 

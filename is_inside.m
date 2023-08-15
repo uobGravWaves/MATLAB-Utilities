@@ -1,4 +1,4 @@
-function TF = isInside(ps1, ps2)
+function TF = is_inside(ps1, ps2)
 
 %Check if ps1 is inside ps2
 %Only polyshapes

@@ -1,5 +1,5 @@
 function OUT = edge_linking_points(edgeImage)
-
+%Links points in a BW image
 endPoints = bwmorph(edgeImage, 'endpoints');
 [endPointRows, endPointColumns] = find(endPoints);
 numberOfEndpoints = length(endPointRows);
